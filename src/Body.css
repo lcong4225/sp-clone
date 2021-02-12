@@ -1,0 +1,72 @@
+.body {
+  flex: 0.8;
+  height: 100vh;
+  color: #fff;
+  overflow-y: overlay;
+  background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 0));
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.body__infoText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -19px;
+}
+
+.body__infoText > small {
+  margin-bottom: 10px;
+}
+.body__infoText > h2 {
+}
+
+.body__info > img {
+  height: 20vh;
+  width: 20vh;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__icons {
+  display: flex;
+  align-items: center;
+
+  max-width: 220px;
+  margin-left: -50px;
+}
+
+.body__icons > .MuiButton-root {
+  background-color: #1ed15e;
+  color: #fff;
+  border-radius: 20px;
+  width: 100px;
+  height: 32px;
+  font-weight: 800;
+  margin: 20px 10px 20px 50px;
+}
+
+.body__icons > .MuiButton-root:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+  background-color: #1ed15e;
+  box-shadow: 0 0px 10px rgba(38, 255, 0, 0.4);
+}
+
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.body__infoText > p {
+  font-size: 14px;
+}
